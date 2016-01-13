@@ -9,10 +9,9 @@ module.exports = function(grunt) {
     'tslint',
     'clean:gen',
     'copy:public_to_gen',
-    'phantomjs',
     'css',
     'typescript:build'
   ]);
 
-  grunt.registerTask('test', ['default', 'karma:test']);
+  grunt.registerTask('test', ['default']);
 };
