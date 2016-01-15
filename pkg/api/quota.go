@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/dilgerma/grafana/pkg/bus"
+	"github.com/dilgerma/grafana/pkg/middleware"
+	m "github.com/dilgerma/grafana/pkg/models"
+	"github.com/dilgerma/grafana/pkg/setting"
 )
 
 func GetOrgQuotas(c *middleware.Context) Response {

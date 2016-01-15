@@ -7,8 +7,8 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/dilgerma/grafana/pkg/log"
+	"github.com/dilgerma/grafana/pkg/setting"
 )
 
 type PluginMeta struct {

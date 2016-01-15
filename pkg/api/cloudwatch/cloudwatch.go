@@ -14,8 +14,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/dilgerma/grafana/pkg/middleware"
+	m "github.com/dilgerma/grafana/pkg/models"
 )
 
 type actionHandler func(*cwRequest, *middleware.Context)

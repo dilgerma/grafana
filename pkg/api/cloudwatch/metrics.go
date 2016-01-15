@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/grafana/grafana/pkg/middleware"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/dilgerma/grafana/pkg/middleware"
+	"github.com/dilgerma/grafana/pkg/util"
 )
 
 var metricsMap map[string][]string

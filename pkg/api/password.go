@@ -1,11 +1,11 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/dilgerma/grafana/pkg/api/dtos"
+	"github.com/dilgerma/grafana/pkg/bus"
+	"github.com/dilgerma/grafana/pkg/middleware"
+	m "github.com/dilgerma/grafana/pkg/models"
+	"github.com/dilgerma/grafana/pkg/util"
 )
 
 func SendResetPasswordEmail(c *middleware.Context, form dtos.SendResetPasswordEmailForm) Response {

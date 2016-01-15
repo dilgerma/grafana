@@ -3,9 +3,9 @@ package notifications
 import (
 	"testing"
 
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/dilgerma/grafana/pkg/bus"
+	m "github.com/dilgerma/grafana/pkg/models"
+	"github.com/dilgerma/grafana/pkg/setting"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

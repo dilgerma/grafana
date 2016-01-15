@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/events"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/dilgerma/grafana/pkg/bus"
+	"github.com/dilgerma/grafana/pkg/events"
+	"github.com/dilgerma/grafana/pkg/setting"
 	"github.com/streadway/amqp"
 )
 

@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/Unknwon/macaron"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/dilgerma/grafana/pkg/log"
+	"github.com/dilgerma/grafana/pkg/setting"
 )
 
 func Logger() macaron.Handler {

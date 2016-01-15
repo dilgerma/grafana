@@ -2,9 +2,9 @@ package api
 
 import (
 	"github.com/Unknwon/macaron"
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/dilgerma/grafana/pkg/api/dtos"
+	"github.com/dilgerma/grafana/pkg/middleware"
+	m "github.com/dilgerma/grafana/pkg/models"
 	"github.com/macaron-contrib/binding"
 )
 

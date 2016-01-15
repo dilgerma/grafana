@@ -6,13 +6,13 @@ import (
 
 	"github.com/Unknwon/macaron"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/components/apikeygen"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/metrics"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/dilgerma/grafana/pkg/bus"
+	"github.com/dilgerma/grafana/pkg/components/apikeygen"
+	"github.com/dilgerma/grafana/pkg/log"
+	"github.com/dilgerma/grafana/pkg/metrics"
+	m "github.com/dilgerma/grafana/pkg/models"
+	"github.com/dilgerma/grafana/pkg/setting"
+	"github.com/dilgerma/grafana/pkg/util"
 )
 
 type Context struct {
